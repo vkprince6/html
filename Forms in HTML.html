@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+
+<head>
+</head>
+
+<body>
+    <!--Fieldset is used to create a box in the html file-->
+    <!--legend is used to place  the content in the top left of  the  fieldset-->
+    <!--form tag is used to create a form in html file-->
+    <!--Label is used to create question or content in the html form-->
+    <!--select tag is used to create a drop down menu  in html file-->
+    <!--option tag is used to create the drop-down values inside the  select tag-->
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form>
+            <label>Name :</label>
+            <input type="text">
+            
+            <br><br>
+            
+            <label>Password :</label>
+            <input type="password">
+            
+            <br><br>
+            
+            <!--color is an input type which is used to create a color picker in HTML form-->
+            <label>Favourite color :</label>
+            <input type="color">
+            
+            <br><br>
+            
+            <!--range is an input type which is used to create a ranger like a ruler in HTML form-->
+            <label>Tamil Proficiency :</label>
+            <input type="range">
+            
+            <br><br>
+            
+            <!--It is used to select one option in a same time-->
+            <!--Value attribute is used to provide the order of the options-->
+            <label>Select Course :</label>
+            <select>
+                <option value="A">B.E / B.Tech</option>
+                <option value="B">BA</option>
+                <option value="C">B.sc</option>
+                <option value="D">B.Com</option>
+            </select>
+            
+            <br><br>
+            
+            <!--It is used to select multiple option in a same time-->
+            <!--Multiple attribute is used to select more  than one option in a same time-->
+            <!--Value attribute is used to provide the order of the options-->
+            <label>Select Course :</label>
+            <select multiple>
+                <option value="A">B.E / B.Tech</option>
+                <option value="B">BA</option>
+                <option value="C">B.sc</option>
+                <option value="D">B.Com</option>
+            </select>
+            
+            <br><br>
+            
+            <!--Date of birth-->
+            <!--date is the type which is used to create a date format in HTML file-->
+            <label>Date of Birth :</label>
+            <input type="date">
+            
+            <br><br>
+            
+            <!--text area is used to create a text space with mulltiple lines with large size-->
+            <!--cols and rows are the attribute which is useed to create the mentioned space in the textarea-->
+            <label>Address :</label>
+            <textarea cols="20" rows="5"></textarea>
+            
+            <br><br>
+            
+            <!--radio is the input type which is used to create radio buttons  in the form-->
+            <!--fixing a common name is an attribute which is used to select any one  option in the collection of many radio buttons-->
+            <label>Gender :</label>
+            <input type="radio" name="gen">Male
+            <input type="radio" name="gen">Female
+            <input type="radio" name="gen">Prefer not to say
+            
+            <br><br>
+            
+            <!--file is an atttribute  which is used to upload files in a HTML form-->
+            <!--In this  below code we can just upload one file in a time-->
+            <!--Add "multiple" attribute in file input type to add multiple files in a time-->
+            <label>Upload your Resume here:</label>
+            <br><br>
+            <input type="file" muultiple>
+            
+            <br><br>
+            
+            <!--checkbox is an input type which is used to create a checker box in form-->
+            <label>The above provided informations are truth to my knowledge.</label>
+            <br><br>
+            <input type="checkbox"> I agree the  terms and conditions.
+            
+            <br><br>
+            
+            <!--Button tag is used to create buttons in a HTML form -->
+            <button>Save</button>
+            
+            <!--submit is an input type which is used to create a submit  button in a HTML form-->
+            <input type="submit">
+            
+        </form>
+    </fieldset>
+</body>
+
+</html>
